@@ -1,6 +1,5 @@
 FROM nvidia/cuda:10.1-cudnn7-devel-ubuntu18.04
 ARG DEBIAN_FRONTEND=noninteractive
-MAINTAINER Mikihito Matsuura <matsuura.m.ag@m.titech.ac.jp>
 
 RUN apt update 
 RUN apt install -y \
